@@ -1,0 +1,57 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(6, 230, 230, 0.752);
+    color: rgba(255, 0, 0, 0.641);
+}
+h1{
+    font-size: 200px;
+    text-shadow: 2px .5px rgba(0, 0, 0, 0.328);
+}
+h2{
+    font-size: 100px;
+}
+section{
+    display: flex;
+}
+.section-pading{
+    margin-top: 700px;
+}
+.leopard{
+    width: 80%;
+    margin: 0 auto;
+}
+.leopard-text{
+    padding-left: 50px;
+    margin-top: -60px;
+    margin-right: -300px;
+}
+#leopard img{
+    border-radius: 100%;
+    width: 1200px;
+}
+.detail-picture{
+    background-color: rgba(0, 255, 255, 0.426);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.404);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 50px 20px;
+}
+.detail-picture img{
+    height: 400px;
+    width: 500px;
+    border-radius: 100%;
+}
+p{
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+    font-size: 60px;
+    background-color: rgb(19, 102, 102);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+}
