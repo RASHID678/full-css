@@ -36,6 +36,11 @@ section{
     border-radius: 100%;
     width: 1200px;
 }
+#leopard img:hover{
+    border-radius: 0;
+    width: 1200px;
+    height: 800px;
+}
 .detail-picture{
     background-color: rgba(0, 255, 255, 0.426);
     box-shadow: 10px 10px rgba(0, 0, 0, 0.404);
@@ -48,6 +53,11 @@ section{
     width: 500px;
     border-radius: 100%;
 }
+.detail-picture img:hover{
+    border-radius: 0;
+    width: 1000px;
+    height: 800px;
+}
 p{
     font-size: 70px;
 }
@@ -58,6 +68,9 @@ a{
     padding: 10px 30px;
     border-radius: 20px;
     color: white;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
 }
 footer{
     display: flex;
